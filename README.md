@@ -1,1 +1,1 @@
-# Olistic-Science
+# Holistic-Science
