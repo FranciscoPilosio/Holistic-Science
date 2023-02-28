@@ -1,8 +1,10 @@
-import { createApp } from "vue";
-import "./assets/style/index.css";
-import App from "./App.vue";
-import StoryBlock from "./config/storyblock";
+import { createApp } from 'vue'
+import './assets/style/index.css'
+import App from './App.vue'
+import { StoryblokVue, StoryblokConfig } from "./config/storyblok";
 
-StoryBlock(app);
+const app = createApp(App);
 
-createApp(App).mount("#app");
+app.use(StoryblokVue, StoryblokConfig)
+
+app.mount('#app')
