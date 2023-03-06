@@ -1,16 +1,20 @@
-<template><HsLayout /></template>
+<template>
+  <HsLayout />
+</template>
 
 <script>
-import HsLayout from "../layout/index.vue";
-import { useStoryblok } from "@storyblok/vue";
+import { reactive, toRefs } from 'vue';
+import HsLayout from '../layout/index.vue';
+import { useStoryblok } from '@storyblok/vue';
 export default {
   components: { HsLayout },
-  name: "Home",
+  name: 'HsHome',
   setup() {
-    (async () => {
-      const story = await useStoryblok("home", { version: "draft" });
-      console.log(story);
-    })();
-  },
+    const state = reactive({
+      story: {}
+    });
+    const { story } = toRefs(state);
+    (async () => await useStoryblok('home'))().then(res => (story.value = res));
+  }
 };
 </script>

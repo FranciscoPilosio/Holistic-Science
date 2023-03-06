@@ -1,0 +1,16 @@
+.header {
+  background-color: brown;
+  &__nav {
+    background-color: brown;
+    &--list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    &--element {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+  }
+}
