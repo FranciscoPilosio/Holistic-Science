@@ -2,20 +2,20 @@
   <section id="projectSection">
     <h1>Quien soy?</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque dolore
-      numquam ullam temporibus itaque, libero, maiores mollitia modi fuga fugiat
-      quia ipsam. Ad ratione totam voluptas inventore assumenda esse natus!
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque dolore numquam ullam
+      temporibus itaque, libero, maiores mollitia modi fuga fugiat quia ipsam. Ad ratione totam
+      voluptas inventore assumenda esse natus!
     </p>
     <h2>Que hago?</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet
-      animi a cum nobis iste illum ab vero quidem. Ea, consequuntur consequatur?
-      Eius perferendis eveniet ea, doloribus dignissimos recusandae quae.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet animi a cum nobis iste
+      illum ab vero quidem. Ea, consequuntur consequatur? Eius perferendis eveniet ea, doloribus
+      dignissimos recusandae quae.
       <br />
       <br />
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est incidunt
-      quidem voluptatum tempore quasi iste, minima nemo. Sequi, atque. Ut quae
-      ipsa sequi in soluta rem fugit et a animi.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est incidunt quidem voluptatum
+      tempore quasi iste, minima nemo. Sequi, atque. Ut quae ipsa sequi in soluta rem fugit et a
+      animi.
     </p>
     <h2>Propuestas</h2>
 
@@ -42,8 +42,8 @@
 
 <script>
 export default {
-  name: "HsMain",
-  setup(props) {},
+  name: 'HsMain',
+  setup(props) {}
 };
 </script>
 
@@ -72,7 +72,7 @@ h2 {
 }
 
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }

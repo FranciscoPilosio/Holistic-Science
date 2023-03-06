@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import HsMain from "./HsMain/index.vue";
-import HsHeader from "./HsHeader/index.vue";
-import HsFooter from "./HsFooter/index.vue";
+import HsMain from './HsMain/index.vue';
+import HsHeader from './HsHeader/index.vue';
+import HsFooter from './HsFooter/index.vue';
 
 export default {
-  name: "HsLayout",
-  components: { HsHeader, HsMain, HsFooter },
+  name: 'HsLayout',
+  components: { HsHeader, HsMain, HsFooter }
 };
 </script>
