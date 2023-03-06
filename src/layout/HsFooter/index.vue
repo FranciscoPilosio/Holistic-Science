@@ -3,8 +3,15 @@
 </template>
 
 <script>
+import { inject } from 'vue';
 export default {
-  name: 'HsFooter'
+  name: 'HsFooter',
+  setup() {
+    const data = inject('footer');
+    return {
+      data
+    };
+  }
 };
 </script>
 <style scoped src="./style.scss" lang="scss" />
