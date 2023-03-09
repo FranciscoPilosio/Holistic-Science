@@ -1,16 +1,14 @@
 .header {
-  background-color: brown;
+  @apply bg-red-800;
   &__nav {
-    background-color: brown;
+    @apply bg-red-800;
+
     &--list {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 20px;
+      @apply flex flex-wrap p-5;
     }
     &--element {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 20px;
+      @apply flex flex-wrap p-5;
     }
   }
 }
+

@@ -1,10 +1,12 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { fileURLToPath, URL } from 'url';
+import { importFonts } from './src/utils/helpers/import';
+import { ViteWebfontDownload } from 'vite-plugin-webfont-dl';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  plugins: [vue()],
+  plugins: [vue(), ViteWebfontDownload(importFonts)],
   resolve: {
     extensions: ['.js', '.vue', '.json', '.css'],
     alias: {
