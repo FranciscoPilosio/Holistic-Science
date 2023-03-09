@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply mx-24 my-6;
-  font-family: sans-serif;
+  @apply mx-24 my-6 font-roboto bg-[#191736];
 }
