@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #f2f4fc;
-  margin: 2% 10% 2% 10%;
+  @apply mx-24 my-6;
   font-family: sans-serif;
 }
