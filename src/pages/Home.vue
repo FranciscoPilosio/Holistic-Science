@@ -64,13 +64,11 @@ export default {
 h1 {
   font-weight: bold;
   font-size: 40px;
-  color: #292e47;
   margin-bottom: 50px;
 }
 h2 {
   font-weight: bold;
   font-size: 30px;
-  color: #292e47;
   margin: 50px 0 50px 0;
 }
 .column {
